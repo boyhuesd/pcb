@@ -13207,6 +13207,8 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <part name="JP2" library="datle-conn" deviceset="PINHD-1X1" device=""/>
 <part name="JP3" library="datle-conn" deviceset="PINHD-1X1" device=""/>
 <part name="JP4" library="datle-conn" deviceset="PINHD-1X2" device="0.5&quot;" value="SPEAKER"/>
+<part name="JP5" library="datle-conn" deviceset="PINHD-1X1" device=""/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13279,6 +13281,8 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <instance part="JP2" gate="G$1" x="35.56" y="41.91" rot="R180"/>
 <instance part="JP3" gate="G$1" x="171.45" y="62.23" rot="R90"/>
 <instance part="JP4" gate="G$1" x="166.37" y="-8.89"/>
+<instance part="JP5" gate="G$1" x="189.23" y="62.23" rot="R90"/>
+<instance part="GND11" gate="1" x="189.23" y="49.53"/>
 </instances>
 <busses>
 </busses>
@@ -13355,6 +13359,11 @@ Source: &lt;a href="http://www.bourns.com/pdfs/3314.pdf"&gt; Data sheet&lt;/a&gt
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="176.53" y1="15.24" x2="176.53" y2="16.51" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="189.23" y1="59.69" x2="189.23" y2="52.07" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
