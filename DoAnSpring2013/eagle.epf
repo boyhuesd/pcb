@@ -1,5 +1,5 @@
 [Eagle]
-Version="06 04 00"
+Version="06 05 00"
 Platform="Windows"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
@@ -7,18 +7,18 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="E:/DEV/EAGLE/LBR/Microchip_By_element14_Batch_1.lbr"
 UsedLibrary="E:/DEV/EAGLE/LBR/datle-analogic.lbr"
 UsedLibrary="E:/DEV/EAGLE/LBR/datle-conn.lbr"
 UsedLibrary="E:/DEV/EAGLE/LBR/datle-discrete.lbr"
 UsedLibrary="E:/DEV/EAGLE/LBR/datle-display.lbr"
+UsedLibrary="E:/DEV/EAGLE/LBR/datle-frames.lbr"
+UsedLibrary="E:/DEV/EAGLE/LBR/datle-mcu.lbr"
 UsedLibrary="E:/DEV/EAGLE/LBR/datle-powerIC.lbr"
 UsedLibrary="E:/DEV/EAGLE/LBR/datle-switch.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/supply1.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/supply2.lbr"
 UsedLibrary="E:/DEV/EAGLE/LBR/Texas Instruments/Texas Instruments_By_element14_Batch_1.lbr"
 UsedLibrary="E:/DEV/EAGLE/LBR/National Semiconductors/NSC_By_element14_Batch_1.1.lbr"
-UsedLibrary="E:/DEV/EAGLE/LBR/datle-frames.lbr"
 
 [Win_1]
 Type="Control Panel"
