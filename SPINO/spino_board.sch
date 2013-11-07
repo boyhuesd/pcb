@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -13174,12 +13174,12 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="5.715" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="-0.635" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="6.985" y1="-1.27" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-6.35" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="2" x="-3.81" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="3" x="-1.27" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="4" x="1.27" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="6" x="6.35" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
 <text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
@@ -13296,14 +13296,14 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="8.255" y1="1.27" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="7.62" y1="-0.635" x2="8.255" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="9.525" y1="-1.27" x2="8.255" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-8.89" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="7" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="8" x="8.89" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-8.89" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="2" x="-6.35" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="3" x="-3.81" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="4" x="-1.27" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="5" x="1.27" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="6" x="3.81" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="7" x="6.35" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="8" x="8.89" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
 <text x="-10.2362" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-10.16" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
@@ -13408,10 +13408,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-3.81" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="0.7" diameter="1.27" shape="long" rot="R90"/>
 <text x="-5.1562" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
@@ -13899,6 +13899,7 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <part name="LED1" library="datle-discrete" deviceset="LED" device="5MM"/>
 <part name="R6" library="datle-discrete" deviceset="R-US_" device="0207/10" value="330"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="GND10" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13939,7 +13940,7 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <instance part="JP2" gate="A" x="212.09" y="115.57"/>
 <instance part="JP3" gate="A" x="212.09" y="87.63"/>
 <instance part="JP4" gate="A" x="212.09" y="64.77"/>
-<instance part="GND6" gate="1" x="106.68" y="62.23"/>
+<instance part="GND6" gate="1" x="106.68" y="59.69"/>
 <instance part="C5" gate="G$1" x="115.57" y="83.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="116.586" y="80.899" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="118.364" y="79.121" size="1.778" layer="96"/>
@@ -13961,6 +13962,7 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <attribute name="VALUE" x="205.74" y="32.258" size="1.778" layer="96"/>
 </instance>
 <instance part="GND9" gate="1" x="223.52" y="27.94"/>
+<instance part="GND10" gate="1" x="102.87" y="59.69"/>
 </instances>
 <busses>
 </busses>
@@ -13994,7 +13996,7 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="106.68" y1="64.77" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="62.23" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="83.82" x2="106.68" y2="92.71" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="92.71" x2="106.68" y2="102.87" width="0.1524" layer="91"/>
@@ -14017,12 +14019,6 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <junction x="106.68" y="83.82"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="A" pin="7"/>
-<wire x1="209.55" y1="59.69" x2="203.2" y2="59.69" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="59.69" x2="203.2" y2="52.07" width="0.1524" layer="91"/>
-<pinref part="GND7" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="201.93" y1="135.89" x2="201.93" y2="138.43" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="3"/>
@@ -14037,6 +14033,26 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="219.71" y1="35.56" x2="223.52" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="35.56" x2="223.52" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="8"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="209.55" y1="57.15" x2="203.2" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="57.15" x2="203.2" y2="52.07" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RESET" gate="1" pin="P1"/>
+<pinref part="RESET" gate="1" pin="P"/>
+<wire x1="102.87" y1="123.19" x2="102.87" y2="62.23" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="123.19" x2="102.87" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="129.54" x2="102.87" y2="127" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="127" x2="102.87" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="105.41" y1="129.54" x2="102.87" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="105.41" y1="127" x2="102.87" y2="127" width="0.1524" layer="91"/>
+<junction x="102.87" y="123.19"/>
+<junction x="102.87" y="127"/>
+<pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -14307,32 +14323,20 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <junction x="116.84" y="127"/>
 </segment>
 </net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="RESET" gate="1" pin="P1"/>
-<pinref part="RESET" gate="1" pin="P"/>
-<pinref part="IC1" gate="G$1" pin="AREF"/>
-<wire x1="129.54" y1="115.57" x2="102.87" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="102.87" y1="115.57" x2="102.87" y2="57.15" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="8"/>
-<wire x1="102.87" y1="57.15" x2="209.55" y2="57.15" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="123.19" x2="102.87" y2="123.19" width="0.1524" layer="91"/>
-<wire x1="102.87" y1="123.19" x2="102.87" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="102.87" y1="129.54" x2="102.87" y2="127" width="0.1524" layer="91"/>
-<wire x1="102.87" y1="127" x2="102.87" y2="123.19" width="0.1524" layer="91"/>
-<wire x1="105.41" y1="129.54" x2="102.87" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="105.41" y1="127" x2="102.87" y2="127" width="0.1524" layer="91"/>
-<junction x="102.87" y="123.19"/>
-<junction x="102.87" y="127"/>
-<junction x="102.87" y="115.57"/>
-</segment>
-</net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="209.55" y1="35.56" x2="212.09" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="AREF"/>
+<wire x1="129.54" y1="115.57" x2="93.98" y2="115.57" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="115.57" x2="93.98" y2="59.69" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="A" pin="7"/>
+<wire x1="93.98" y1="59.69" x2="209.55" y2="59.69" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
