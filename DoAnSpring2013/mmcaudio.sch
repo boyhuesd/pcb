@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -15986,12 +15986,12 @@ DIN A4, landscape with location and doc. field</description>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="MMC/SD" library="datle-discrete" deviceset="SD_CARD_SOCKET" device="4UCON"/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="R21" library="datle-discrete" deviceset="R-US_" device="0207/10" value="6.8k"/>
-<part name="R19" library="datle-discrete" deviceset="R-US_" device="0207/10" value="6.8k"/>
-<part name="R17" library="datle-discrete" deviceset="R-US_" device="0207/10" value="6.8k"/>
-<part name="R16" library="datle-discrete" deviceset="R-US_" device="0207/10" value="6.8k"/>
-<part name="R18" library="datle-discrete" deviceset="R-US_" device="0207/10" value="6.8k"/>
-<part name="R20" library="datle-discrete" deviceset="R-US_" device="0207/10" value="6.8k"/>
+<part name="R21" library="datle-discrete" deviceset="R-US_" device="0207/10" value="2.2k"/>
+<part name="R19" library="datle-discrete" deviceset="R-US_" device="0207/10" value="2.2k"/>
+<part name="R17" library="datle-discrete" deviceset="R-US_" device="0207/10" value="2.2k"/>
+<part name="R16" library="datle-discrete" deviceset="R-US_" device="0207/10" value="3.3k"/>
+<part name="R18" library="datle-discrete" deviceset="R-US_" device="0207/10" value="3.3k"/>
+<part name="R20" library="datle-discrete" deviceset="R-US_" device="0207/10" value="3.3k"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
